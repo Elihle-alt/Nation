@@ -3,12 +3,13 @@ name: RDP
 
 on:
 
-  workflow_dispatch:
+workflow_dispatch:
 
 
 jobs:
 
-  secure-rdp:
+
+secure-rdp:
 
     runs-on: windows-latest
 
